@@ -1,0 +1,46 @@
+.item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 5px solid #dfdff3;
+}
+
+.item_last {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.item_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item_bottom image {
+  width: 15px;
+  height: 15px;
+}
+
+.item_bottom text {
+  font-size: 15px;
+  color: #888;
+  margin-left: 5px;
+}
+
+.item_style {
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.text_title {
+  font-size: 16px;
+  color: #353535;
+}
+
+.title_image {
+  width: 25px;
+  height: 25px;
+}
+
+.creater {
+  font-size: 15px;
+  color: #888;
+}

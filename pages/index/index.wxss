@@ -1,0 +1,137 @@
+/**index.wxss**/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ swiper {
+  
+  width: 100%;
+  height: 355rpx;
+} 
+
+.header {
+  padding: 5rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left_text_jptj {
+  margin-top: 15rpx;
+  font-size: 15px;
+  color: black;
+  border-left: forestgreen;
+  border-left-width: 2px;
+  border-left-style: solid;
+}
+
+.right_text_jptj {
+  margin-top: 15rpx;
+  font-size: 15px;
+  color: forestgreen;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.jptj-list {
+  margin: 10rpx;
+  height: 250rpx;
+  flex-wrap: wrap;
+  width: 46%;
+  position: relative;
+}
+
+.jptj-list image {
+  width: 100%;
+  height: 100%;
+}
+
+.jptj_item image {
+  /* justify-content: center; */
+  width: 100%;
+  height: 100%;
+}
+
+.jptj_text {
+  height: 60rpx;
+  width: 98%;
+  font-size: 13px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 2%;
+  color: white;
+}
+
+.rm_image {
+  margin: 15rpx 25rpx 15rpx 15rpx;
+  height: 450rpx;
+  width: 96%;
+}
+
+.list-item-images {
+  height: 300rpx;
+  width: 100%;
+  position: relative;
+}
+
+.list_item_image {
+  height: 100%;
+  width: 100%;
+}
+
+.avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -50rpx;
+  right: 50rpx;
+}
+
+.text_item {
+  height: 100%;
+  width: 96%;
+  margin-top: 30rpx;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.rmpc_title {
+  font-size: 15px;
+  color: black;
+}
+
+.rmpc_content {
+  margin-top: 5rpx;
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 8rpx;
+}
+
+.rmpc_content text {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+}
+
+.selection {
+  border-bottom: 10px solid #ddd;
+  margin-top: 15rpx;
+}

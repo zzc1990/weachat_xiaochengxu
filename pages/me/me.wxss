@@ -1,0 +1,50 @@
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120rpx;
+}
+
+.user-info image {
+  width: 235rpx;
+  height: 220rpx;
+}
+
+.user-info text {
+  padding: 10px 0;
+  font-size: 15px;
+  color: grey;
+}
+
+#version {
+  padding: 5px 5px;
+  color: #405f80;
+  border: 1px solid #405f80;
+  font-size: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.github {
+  padding: 40px 0 10px 10px;
+}
+
+.github text {
+  font-size: 14px;
+}
+
+.email {
+  padding: 10px 10px;
+}
+
+.email text {
+  font-size: 14px;
+}
+
+.curriculum_vitae {
+  padding: 10px 10px;
+}
+
+.curriculum_vitae text {
+  font-size: 14px;
+}

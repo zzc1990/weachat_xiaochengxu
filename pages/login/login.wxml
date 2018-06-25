@@ -1,0 +1,23 @@
+<!-- <form bindsubmit="formSubmit"> -->
+<view class='mcontainer'>
+  <view class='logo_location'>
+    <image src='../../images/logo.jpg' class='logo-style'></image>
+  </view>
+
+
+  <view class='input_style'>
+    <text>用户名 </text>
+    <input name="input" placeholder='请输入用户名' placeholder-style='font-size:15px;color:gray' bindinput="usernameInput" />
+  </view>
+
+  <view class='input_style'>
+    <text style='margin-left:25rpx'>密  码 </text>
+    <input name="input" password="true" placeholder='请输入密码' placeholder-style='font-size:15px;color:gray' bindinput="passwordInput" />
+  </view>
+
+  <view>
+    <button class='btn_style' form-type='submit' bindtap="loginBtnClick">登 录</button>
+  </view>
+
+</view>
+<!-- </form> -->

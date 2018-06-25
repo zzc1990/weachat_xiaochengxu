@@ -1,0 +1,63 @@
+<!--index.wxml-->
+<view class="container">
+
+
+    <swiper catchtap="onSwiperTap" indicator-dots="true" vertical="{{false}}" autoplay="true" interval="3000" duration="1000">
+      <block wx:for="{{imgUrls}}" wx:for-item="item" wx:for-index="idx">
+        <swiper-item style="background:url({{item}});background-repeat: no-repeat;background-size:100% 200px; ">
+          <!-- <image src="{{item}}" data-postId="{{index}}" class="slide-image" width="355" height="150" /> -->
+        </swiper-item>
+      </block>
+    </swiper>
+  
+
+  <view class='selection'>
+
+    <view class='header'>
+      <text class='left_text_jptj'>精品推荐</text>
+      <text class='right_text_jptj' bindtap='all_good'>全部精品</text>
+    </view>
+
+    <view class='content'>
+
+      <view class='jptj-list' wx:for="{{items}}" catchtap="onJptjTap">
+        <!-- <image src="../../images/a3.png"></image> -->
+        <image src="{{item}}" />
+        <view class='jptj_text'>
+          <text>精品推荐标题 {{index}}</text>
+        </view>
+      </view>
+
+    </view>
+
+  </view>
+
+
+
+  <view class='header'>
+    <text class='left_text_jptj'>热门活动</text>
+    <text class='right_text_jptj' bindtap='all_active'>全部活动</text>
+  </view>
+
+  <view class='rm_image'>
+      <view wx:for="{{listItems}}" catchtap="onRmhdTap">
+        <view class='list-item-images'>
+          <!-- <image src="../../images/a2.png" class="list_item_image"></image> -->
+          <image src="{{item}}" class="list_item_image" />
+          <image src=" ../../images/kychina.jpg " class="avatar "></image>
+        </view>
+
+        <view class='text_item'>
+          <view class='rmpc_title'>
+            <text>热门活动的标题</text>
+          </view>
+
+          <view class='rmpc_content'>
+            <text>这里是热门活动的内容, 当数据超过两行的时候会用省略号...显示,小程序小程序小程序小程序小程序小程序小程序小程序小程序小程序小程序</text>
+          </view>
+        </view>
+
+      </view>
+  </view>
+
+</view>

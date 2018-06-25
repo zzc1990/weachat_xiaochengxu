@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title_class {
+  margin: 20rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.postTitle {
+  font-size: 20px;
+  color: blue;
+}
+
+.name_time {
+  padding: 10rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name_times {
+  padding: 10rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name_times text {
+  font-size: 15px;
+  color: forestgreen;
+}
+
+.content {
+  padding: 10rpx 20rpx;
+}
+
+.content text {
+  font-size: 15px;
+  color: gray;
+}
+
+.name_time text {
+  font-size: 15px;
+  color: gray;
+}
+
+.commentBox {
+  color: black;
+  padding: 15rpx 18rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.commentBox text {
+  font-size: 15px;
+  color: gray;
+}

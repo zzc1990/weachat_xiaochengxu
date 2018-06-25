@@ -1,0 +1,45 @@
+.mcontainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo_location {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.logo-style {
+  width: 350rpx;
+  height: 305rpx;
+  margin-top: 80rpx;
+  margin-bottom: 25rpx;
+}
+
+.input_style {
+  margin: 15px 15px 10px 15px;
+  display: flex;
+}
+
+.input_style text {
+  font-size: 17px;
+  color: #b3d4db;
+}
+
+.input_style input {
+  flex-grow: 1;
+  width: 80%;
+  margin-left: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.btn_style {
+  margin-top: 85px;
+  width: 80%;
+  height: 50px;
+  background-color: #b3d4db;
+  border-radius: 5;
+  font-size: 17px;
+  align-items: center;
+}

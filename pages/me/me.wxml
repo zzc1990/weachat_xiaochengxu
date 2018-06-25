@@ -1,0 +1,19 @@
+<view>
+  <view class='user-info'>
+    <image src='../../images/a1.jpg'></image>
+    <text>{{username}}</text>
+    <text id='version'>当前版本 1.0.0</text>
+  </view>
+
+  <view class='github'>
+    <text>GitHub地址 : https://github.com/zzc1990</text>
+  </view>
+
+  <view class='email'>
+    <text>邮箱 : 281838618@qq.com</text>
+  </view>
+
+  <view class='curriculum_vitae'>
+    <text>在线简历 : https://www.baidu.com </text>
+  </view>
+</view>

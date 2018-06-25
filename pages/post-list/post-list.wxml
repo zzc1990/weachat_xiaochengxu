@@ -1,0 +1,98 @@
+<view style='dispaly:flex;flex-direction:column'>
+
+  <view class='item' catchtap='onTouch' id='120'>
+    <view>
+      <image src='../../images/list_title1.png' class='title_image'></image>
+    </view>
+
+    <view class='item_style'>
+      <text class='text_title'>世博期间上海会能访问twitter和Facebook么?</text>
+    </view>
+
+    <view class='item_bottom'>
+      <view>
+        <image src='../../images/view.png' />
+        <text>45</text>
+      </view>
+      <text class='creater'>作者 一枚老外</text>
+    </view>
+  </view>
+
+
+  <view class='item' catchtap='onTouch' id='150'>
+    <view>
+      <image src='../../images/list_title3.png' class='title_image'></image>
+    </view>
+
+    <view class='item_style'>
+      <text class='text_title'>新人报道，求软件推荐</text>
+    </view>
+
+    <view class='item_bottom'>
+      <view>
+        <image src='../../images/view.png' />
+        <text>133</text>
+      </view>
+      <text class='creater'>作者 disinfeqt</text>
+    </view>
+
+  </view>
+
+
+  <view class='item' catchtap='onTouch' id='123'>
+    <view>
+      <image src='../../images/list_title2.png' class='title_image'></image>
+    </view>
+
+    <view class='item_style'>
+      <text class='text_title'>讨论所有的 NoSQL 技术</text>
+    </view>
+
+    <view class='item_bottom'>
+      <view>
+        <image src='../../images/view.png' />
+        <text>93</text>
+      </view>
+      <text class='creater'>作者 Livid</text>
+    </view>
+
+  </view>
+
+  <view class='item' catchtap='onTouch' id='44'>
+    <view>
+      <image src='../../images/welcome.png' class='title_image'></image>
+    </view>
+
+    <view class='item_style'>
+      <text class='text_title'>Picky 0.2 什么时候出来？</text>
+    </view>
+
+    <view class='item_bottom'>
+      <view>
+        <image src='../../images/view.png' />
+        <text>122</text>
+      </view>
+      <text class='creater'>作者 Fann</text>
+    </view>
+  </view>
+
+
+  <view class='item_last' catchtap='onTouch' id='131'>
+    <view>
+      <image src='../../images/list_title1.png' class='title_image'></image>
+    </view>
+
+    <view class='item_style'>
+      <text class='text_title'>发帖找不到合适的Group？</text>
+    </view>
+
+    <view class='item_bottom'>
+      <view>
+        <image src='../../images/view.png' />
+        <text>33</text>
+      </view>
+      <text class='creater'>作者 henryhuang</text>
+    </view>
+  </view>
+
+</view>

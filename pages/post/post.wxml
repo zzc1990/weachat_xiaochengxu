@@ -1,0 +1,33 @@
+<view class='container'>
+
+  <view class='title_class'>
+    <text class='postTitle'>{{post.title}}</text>
+  </view>
+
+
+  <view class='name_times'>
+    <text>{{post.member.username}}</text>
+    <text>{{post.last_modified}}</text>
+    <!-- <fmt:formatDate value="${post.last_modified}" pattern="yyyy-MM-dd" /> -->
+  </view>
+
+  <view class='content'>
+    <text>{{post.content}}</text>
+  </view>
+
+  <view class='name_time'>
+    <text>{{post.replies}}条回复</text>
+    <text>{{post.node.name}}</text>
+  </view>
+
+  <view>
+    <view wx:for="{{comments}}">
+      <view class='commentBox'>
+        <text> 用户名 : {{item.member.username}}</text>
+        <text style='color:gray'>评论内容 : {{item.content}}</text>
+      </view>
+    </view>
+  </view>
+
+
+</view>

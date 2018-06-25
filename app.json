@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/post-list/post-list",
+    "pages/post/post",
+    "pages/me/me",
+    "pages/login/login",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#b3d4db"
+  },
+  "tabBar": {
+    "borderStyle": "#004C9E",
+    "position": "bottom",
+    "selectedColor": "#004C9E",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tab/bbt_default.png",
+        "selectedIconPath": "images/tab/bbt_clicked.png"
+      },
+      {
+        "pagePath": "pages/post-list/post-list",
+        "text": "社区",
+        "iconPath": "images/tab/yuedu.png",
+        "selectedIconPath": "images/tab/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/tab/me_default.png",
+        "selectedIconPath": "images/tab/me_clicked.png"
+      }
+    ]
+  }
+}
